@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Vidya Jyoti</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('aboutus.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between; /* Added to space out the nav links */
+            align-items: center;
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img {
+            width: 50px; /* Adjust the size of the logo */
+            height: 50px;
+            margin-right: 10px; /* Add some space between the logo and text */
+        }
+
+        .header-logo a {
+            font-size: 2rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px; /* Add some spacing between nav links */
+            font-size: 1.2rem;
+        }
+
+        .section-container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 30px 20px; /* Add some padding around the container */
+        }
+
+        .sub-section-box {
+            background: rgba(255, 255, 255, 0.7); /* 70% transparent */
+            backdrop-filter: blur(10px); /* Blur effect */
+            margin-bottom: 20px; /* Increase gap between each box to 20px */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .sub-section-box h2 {
+            color: #ffaa00; /* Heading color */
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 5px;
+        }
+
+        .sub-section-box p, .sub-section-box ul {
+            font-size: 1.5rem;
+            line-height: 1.5;
+            color: #030303;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .sub-section-box ul {
+            padding-left: 40px;
+        }
+
+        .sub-section-box ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+        .sub-section-box img {
+            display: block;
+            margin: 20px auto;
+            width: 80vh;
+            height: 60vh;
+        }
+
+        .header-spacing {
+            margin-top: 50px; /* Adjust the value to increase the gap */
+        }
+
+        .three-column {
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+        }
+
+        .three-column div {
+            flex: 1;
+            margin: 0 15px; /* Add spacing between columns */
+        }
+
+        .three-column div p a {
+            text-decoration: none; /* Remove underline from links */
+            color: inherit; /* Ensure link color matches text color */
+        }
+
+        .three-column div p span,
+        .three-column div p a {
+            transition: text-shadow 0.3s;
+        }
+
+        .three-column div p span:hover,
+        .three-column div p a:hover {
+            text-shadow: 0px 0px 10px black; /* Add black glow effect on hover */
+        }
+
+        .three-column div p {
+            margin: 5px 0; /* Reduce spacing between items */
+        }
+
+        .three-column div p span.contact-number {
+            cursor: pointer; /* Change cursor to pointer for contact number */
+        }
+
+        .centered-text p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+
+        .sub-section-box img.initiative-img {
+            margin-top: 20px; /* Add margin to ensure space between text and image */
+        }
+    </style>
+</head>
+<body>
+    <div class="section-container">
+        <header>
+            <div class="header-logo">
+                <!-- Logo image -->
+                <img src="logo.png" class="logo-img" alt="Logo">
+                <a href="index.html"><span>VIDYA</span> Jyoti</a>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="programs.html">Programs</a>
+                <a href="index.html#get-involved">Get Involved</a> <!-- Updated link -->
+                
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <div class="header-spacing"></div>
+        <div class="sub-section-box">
+            <h2>Who We Are</h2>
+            <p>
+                At Vidya Jyoti, we believe that quality education is the key to a brighter, more equitable future. 
+                Our mission is to transform India’s education system by bridging the gap between potential and opportunity.
+            </p>
+        </div>
+        <div class="sub-section-box">
+            <h2>What We Do</h2>
+            <p>
+                Vidya Jyoti focuses on:
+            </p>
+            <ul>
+                <li>Providing access to quality education for underprivileged children.</li>
+                <li>Empowering teachers with modern tools and methodologies.</li>
+                <li>Fostering innovative and inclusive learning environments.</li>
+                <li>Leveraging technology and mentorship programs to unlock potential.</li>
+            </ul>
+            <img src="education-initiative.jpg" alt="Vidya Jyoti Education Initiative">
+        </div>
+        <div class="sub-section-box">
+            <h2>Our Vision</h2>
+            <p>
+                Our vision is a world where education is accessible to all, regardless of socioeconomic background. Through our 
+                programs, we aim to nurture young minds and equip them with the skills needed for a better tomorrow.
+            </p>
+        </div>
+        <div class="sub-section-box">
+            <h2>Our Impact</h2>
+            <p>
+                Since our inception, Vidya Jyoti has positively impacted:
+            </p>
+            <ul>
+                <li>Over 10,000 children through access to quality education.</li>
+                <li>Trained 500+ teachers with modern tools and methodologies.</li>
+                <li>Developed 50+ model schools with innovative learning environments.</li>
+            </ul>
+        </div>
+        <div class="sub-section-box">
+            <h2>How You Can Help</h2>
+            <p>
+                Join us in making education accessible for all! Whether through donations, volunteering, or spreading the word, 
+                your support can help us create a lasting impact and bring hope to countless lives.
+            </p>
+        </div>
+        <div class="sub-section-box">
+            <div class="three-column">
+                <div>
+                    <h2>Quick Links</h2>
+                    <p>
+                        <a href="index.html">Home</a><br> <!-- Updated link to be clickable -->
+                        <a href="aboutus.html">About Us</a><br> <!-- Updated link to be clickable -->
+                        <a href="programs.html">Programs</a><br> <!-- Updated link to be clickable -->
+                        <a href="index.html#get-involved">Get Involved</a><br> <!-- Updated link to be clickable -->
+                        <a href="resources.html">Resources</a><br> <!-- Updated link to be clickable -->
+                        <a href="contact.html">Contact</a><br> <!-- Updated link to be clickable -->
+                    </p>
+                </div>
+                <div>
+                    <h2>Contact Us</h2>
+                    <p>
+                        <span class="contact-number">+91 911797373732</span><br>
+                        <a href="mailto:vidya@jyoti.org">vidya@jyoti.org</a><br> <!-- Updated link to be clickable -->
+                        <a href="#">123 Kranti Vihar, EcoCity,<br>145678</a>
+                    </p>
+                </div>
+                <div>
+                    <h2>Follow Us</h2>
+                    <p>
+                        <span>Facebook</span><br>
+                        <span>Instagram</span><br>
+                        <span>YouTube</span><br>
+                        <span>LinkedIn</span><br>
+                        <span>Twitter</span><br>
+                    </p>
+                </div>
+            </div>
+            <div class="centered-text">
+                <p>VidyaJyoti © 2025<br> Isha Gupta</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
