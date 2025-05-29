@@ -2,9 +2,9 @@
 
 ## 🌐 Overview
 
-##URL(https://vidya-jyoti-ngo-ishagupta.netlify.app/#)
+URL(https://vidya-jyoti-ngo-ishagupta.netlify.app/#)
 
-##This is a static responsive website for **Vidya Jyoti**, an educational initiative aimed at providing quality education to underprivileged children in India. The website serves as a digital presence for the organization, showcasing its mission, programs, and ways to get involved.
+This is a static responsive website for **Vidya Jyoti**, an educational initiative aimed at providing quality education to underprivileged children in India. The website serves as a digital presence for the organization, showcasing its mission, programs, and ways to get involved.
 
 ---
 
